@@ -56,3 +56,15 @@ body{
         margin: 2em;
         padding: 2em;;
     }
+    .intro-video{
+        display: flex;
+        justify-content: center;
+    }
+
+    p{
+        font-size: 1.5em;
+    }
+
+    h2{
+       text-decoration: underline; 
+    }
