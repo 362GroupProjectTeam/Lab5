@@ -14,7 +14,8 @@ body{
   }
   .nav li {
     display: inline-block;
-    margin: 2em;;
+    margin: 1.0em;;
+    font-size: 2em;
   }
 
   .nav{
@@ -63,18 +64,23 @@ body{
     }
 
     p{
-        font-size: 1.5em;
+        font-size: 1.25em;
         font-family: 'Raleway', sans-serif;
     }
 
+    h1 {
+      font-size: 2em;
+      font-family: 'Raleway', sans-serif;
+     }
+
     h2{
-       text-decoration: underline; 
-       font-size: 2em;
+       
+       font-size: 1.75em;
        font-family: 'Raleway', sans-serif;
     }
 
     h3{
-      font-size: 1.75em;
+      font-size: 1.5em;
       font-family: 'Raleway', sans-serif;
    }
 
