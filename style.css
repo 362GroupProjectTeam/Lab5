@@ -19,6 +19,7 @@ body{
 
   .nav{
     background-color: lightblue;
+    
   }
 
   .logo{
@@ -36,3 +37,22 @@ body{
       text-align: center;
       background-color: lightblue;
   }
+
+  /* -----------------------footer----------------------*/
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+  }
+
+    /* -----------------------content----------------------*/
+
+    .home-content{
+        margin: 2em;
+        padding: 2em;;
+    }
