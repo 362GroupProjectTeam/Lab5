@@ -23,6 +23,10 @@ body{
     
     
   }
+ 
+nav li a {
+	text-decoration: none;
+}
 
   .logo{
     float: left;
