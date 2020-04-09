@@ -11,9 +11,9 @@ var error;
 //Submit Button Press
 function submitFunc() {
   //Get Vars from Form
-  fName = document.getElementById("myForm").elements[0].value;
-  lName = document.getElementById("myForm").elements[1].value;
-  email = document.getElementById("myForm").elements[2].value;
+  fName = document.getElementById("myForm").elements[1].value;
+  lName = document.getElementById("myForm").elements[2].value;
+  email = document.getElementById("myForm").elements[0].value;
   
   //Set up additional vars
   error = false;
@@ -35,7 +35,7 @@ function submitFunc() {
   
   //If all checks pass
   if (error == false) {
-	alert("Thank you " + fName + " " + lName + "!\nSomeone Will contact you via:\n\t" + email);
+	alert("Thank you " + fName + " " + lName + "!\nSomeone Will contact you via email");
   }else{
 	alert(msg);
   }
