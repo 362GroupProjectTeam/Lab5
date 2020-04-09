@@ -43,18 +43,3 @@ function submitFunc() {
 
 //When button clicked
 document.getElementById("myForm").onsubmit = function(){submitFunc()};
-
-var slideNum = 0;
-slideShow();
-
-function slideShow(){
-	var i;
-	var setslides = document.getElementByClassName("myPics");
-	for (i = 0; i < setslides.length; i++) {
-    setslides[i].style.display = "none";
-    }
-    slideNum++;
-    if (slideNum > setslides.length) {slideNum = 1}
-    setslides[slideNum-1].style.display = "block";
-    setTimeout(slideShow, 2000); // Change image every 2 seconds
-}

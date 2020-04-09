@@ -147,14 +147,9 @@ display: inline-block;
   }
 
   .event-images{
-    max-width: 100%;
-	position: relative;
-	margin: auto;
+    
   }
   
-  .myPics {
-	  display: none;
-  }
 
   img{
     padding: 0.2em;
