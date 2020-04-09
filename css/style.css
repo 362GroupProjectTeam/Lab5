@@ -151,3 +151,11 @@ nav li {
       margin: 0.2em;
       align-items: center;
     }
+
+    .logo{
+      display: inline-block;
+      height: 20px;
+  width: 50%;
+      position: relative;
+      margin: 10px 15px 15px 10px;
+    }
