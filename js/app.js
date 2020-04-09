@@ -35,7 +35,7 @@ function submitFunc() {
   
   //If all checks pass
   if (error == false) {
-	alert("Thank you " + fName + " " + lName + "!\nSomeone Will contact you via:\n\t" + email);
+	alert("Thank you " + fName + " " + lName + "!\nSomeone Will contact you via email");
   }else{
 	alert(msg);
   }
