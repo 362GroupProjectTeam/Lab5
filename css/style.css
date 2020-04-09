@@ -58,7 +58,8 @@ nav li {
   /* -----------------------------title------------------------------------- */
   .title {
       text-align: center;
-      background-color: lightblue;
+      color: lightblue;
+	  font-size: 2em;
   }
 
   /* -----------------------footer----------------------*/
