@@ -147,8 +147,13 @@ display: inline-block;
   }
 
   .event-images{
-    margin: 1em;
-    padding: 2em;
+    max-width: 100%;
+	position: relative;
+	margin: auto;
+  }
+  
+  .myPics {
+	  display: none;
   }
 
   img{

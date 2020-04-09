@@ -43,3 +43,16 @@ function submitFunc() {
 
 //When button clicked
 document.getElementById("myForm").onsubmit = function(){submitFunc()};
+
+var slideNum = 0;
+slideShow();
+
+function slideShow(){
+	var i;
+	var setslides = document.getElementByClassName("myPics");
+	for( i=0; i < setSlides.length; i++)
+	{
+		setSlides[i].style.display = "block";
+		setTimeout(showSlides, 2000);
+	}
+}
