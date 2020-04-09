@@ -139,3 +139,13 @@ nav li {
     .event-list{
       font-size: 1.5em;
     }
+
+    .event-images{
+      margin: 1em;
+      padding: 2em;
+    }
+
+    img{
+      padding: 0.25em;
+      margin: 0.25em;
+    }
