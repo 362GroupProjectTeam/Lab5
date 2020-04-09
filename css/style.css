@@ -148,8 +148,12 @@ display: inline-block;
   .event-images{
     padding: 2em;
     margin: 1em;
+	max-width: 1000px;
   }
   
+  .myPic {
+    display: none;
+  }
 
   img{
     padding: 0.2em;
