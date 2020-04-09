@@ -11,9 +11,9 @@ var error;
 //Submit Button Press
 function submitFunc() {
   //Get Vars from Form
-  fName = document.getElementById("myForm").elements[0].value;
-  lName = document.getElementById("myForm").elements[1].value;
-  email = document.getElementById("myForm").elements[2].value;
+  fName = document.getElementById("myForm").elements[1].value;
+  lName = document.getElementById("myForm").elements[2].value;
+  email = document.getElementById("myForm").elements[0].value;
   
   //Set up additional vars
   error = false;
