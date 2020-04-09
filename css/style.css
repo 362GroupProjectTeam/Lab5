@@ -19,10 +19,15 @@ nav li {
 }
 
   .nav{
-    background-color: lightblue;
+    background-color: #2B6CA3;
     
     
   }
+  
+nav li a{
+	text-decoration:none;
+	color: #ffffff;
+}
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -34,7 +39,7 @@ nav li {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: lightblue;
+  background-color: #2B6CA3;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -58,7 +63,7 @@ nav li {
   /* -----------------------------title------------------------------------- */
   .title {
       text-align: center;
-      color: lightblue;
+      color: #2B6CA3;
 	  font-size: 2em;
   }
 
@@ -69,7 +74,7 @@ nav li {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: lightblue;
+    background-color: #2B6CA3;
     color: white;
     text-align: center;
   }
@@ -118,7 +123,7 @@ nav li {
       margin: 5px 0 22px 0;
       display: inline-block;
       border: none;
-      background: lightblue;
+      background: #2B6CA3;
     }
 
     .sign-up-button{
@@ -152,10 +157,18 @@ nav li {
       align-items: center;
     }
 
+<<<<<<< HEAD
     .logo{
+=======
+   .logo{
+>>>>>>> 7365ec4ad8b182a6c33f8cc7f6d36a2b3a7f7af1
       display: inline-block;
       height: 20px;
   width: 50%;
       position: relative;
       margin: 10px 15px 15px 10px;
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 7365ec4ad8b182a6c33f8cc7f6d36a2b3a7f7af1
