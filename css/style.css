@@ -5,18 +5,17 @@ body{
     padding-left: 10%;
 }
 /* -----------------------------nav bar------------------------------------- */
-.nav ul {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    
-  }
-  .nav li {
-    display: inline-block;
-    margin: 1.0em;;
-    font-size: 2em;
-  }
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 1.0em;
+}
 
  nav{
   background-color: lightblue;
